@@ -4,15 +4,46 @@
 /* base style */
  body{
       font-family: 'Poppins', sans-serif;
+      background-color: #2D25A0;
+      font-size: 82%;
+      margin: 50px;
  }
-
+ h1{
+      font-size: 64px;
+      color: #FFFFFF;
+      
+ }
 
 nav a{
       text-decoration: none;
+      color: white;
       font-size: 1.3em;
-      margin: 15px;
+      margin-left: 5%;
+}
+.trounament-introduction {
+      display: flex;
+      justify-content: space-between; 
+
 }
 
-.trounament img{
-      width: 50%;
+.trounament-name{
+      width: 100%;
+      float: left;
+      margin-left: 5%;
+      padding: 1%;
+}
+
+.trounament-name img{
+      width: 600px;
+
+}
+.anchor-button{
+      background-color: #E02C6D;
+      color: white;
+      text-decoration: none;
+      padding: 10px 24px;
+      border-radius: 5px;
+      width: 168px;
+       height: 44px;
+       
 }
