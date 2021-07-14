@@ -1,0 +1,18 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+/* base style */
+ body{
+      font-family: 'Poppins', sans-serif;
+ }
+
+
+nav a{
+      text-decoration: none;
+      font-size: 1.3em;
+      margin: 15px;
+}
+
+.trounament img{
+      width: 50%;
+}
